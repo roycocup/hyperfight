@@ -1,0 +1,48 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://graphics/menu_button.png" type="Texture" id=1]
+[ext_resource path="res://scripts/menu_button.gd" type="Script" id=2]
+[ext_resource path="res://resources/Pixel Intv.otf" type="DynamicFontData" id=3]
+
+[sub_resource type="DynamicFont" id=1]
+
+size = 10
+use_mipmaps = false
+use_filter = false
+font_data = ExtResource( 3 )
+_sections_unfolded = [ "Extra Spacing", "Font", "Resource", "Settings" ]
+
+[node name="menu_button" type="Sprite"]
+
+texture = ExtResource( 1 )
+hframes = 2
+script = ExtResource( 2 )
+_sections_unfolded = [ "Animation" ]
+text = ""
+option_num = 1
+
+[node name="label_text" type="Label" parent="." index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = -80.0
+margin_top = -7.0
+margin_right = 80.0
+margin_bottom = 7.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/font = SubResource( 1 )
+text = "ARCADE MODE"
+align = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "Material", "Rect", "Visibility", "custom_colors", "custom_fonts" ]
+
+

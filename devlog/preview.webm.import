@@ -1,0 +1,14 @@
+[remap]
+
+importer="Webm"
+type="VideoStreamWebm"
+path="res://.import/preview.webm-827fcc607d8c5adfb0d9d7bcc0195f4a.webmstr"
+
+[deps]
+
+source_file="res://devlog/preview.webm"
+dest_files=[ "res://.import/preview.webm-827fcc607d8c5adfb0d9d7bcc0195f4a.webmstr" ]
+
+[params]
+
+loop=true
